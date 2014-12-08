@@ -1,0 +1,3 @@
+# .rvmrc can run in dirs other than the root. be explicit.
+ROOT_DIR=`git rev-parse --show-toplevel`
+rvm use 2.1.3@puffing-billy --create
